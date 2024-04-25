@@ -1,0 +1,4 @@
+- The script takes two arguments: a namespace and a resource type.
+- Namespace is the Kubernetes namespace from which you want to retrieve resource usage statistics.
+- Resource type is the Kubernetes resource type for which you want to get resource usage statistics, such as "pods", "nodes", etc.
+- Usage example: kubectl kubeplugin kube-system pods
